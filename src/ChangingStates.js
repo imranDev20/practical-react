@@ -12,13 +12,7 @@ function ChangingStates() {
   useEffect(() => {
     console.log("rendered");
 
-    const timer = setInterval(() => {
-      setCount((count) => count + 1);
-    }, 1000);
-
-    return () => {
-      clearInterval(timer);
-    };
+    setCount((count) => count + 1);
   }, []);
 
   return (
