@@ -5,12 +5,14 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import HelloWorld from "./HelloWorld";
 import ChangingState from "./ChangingStates";
+import List from "./List";
 
 const root = ReactDOM.createRoot(document.getElementById("main"));
 
 root.render(
   <>
-    <ChangingState />
+    <List />
+    {/* <ChangingState /> */}
     {/* <HelloWorld /> */}
     {/* <App /> */}
   </>
